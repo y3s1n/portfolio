@@ -97,7 +97,7 @@ body main {
     position: absolute;
     top: 90%;
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: var(--primary-color);
     border: none;
     font-size: var(--font-size-xl);
     padding: 5px 0.7em;

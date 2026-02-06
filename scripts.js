@@ -17,10 +17,3 @@ let currentIndex = 0;
         images[currentIndex].classList.add('active');
     }
 
-    function goToImage(index) {
-        images[currentIndex].classList.remove('active');
-
-        currentIndex = index;
-
-        images[currentIndex].classList.add('active');
-    }
