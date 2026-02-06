@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yesin's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,13 +21,19 @@
         
     </header>
     <main>
+        
         <section class="photography">
-            <div class="photography-left">
-                
-            </div>
-            <div class="photography-right">
-                <h2>My Work</h2>
-            </div>
+            <h2>My Work</h2>
+            <div class="photo-album">
+             
+                <div class="image-frame">
+                    <img src="photos/Highway1.jpg" class="frame-photo active" alt="">
+                    <img src="photos/Higway2.jpg" class="frame-photo" alt="">
+                    <img src="photos/RednBlue.jpg" class="frame-photo" alt="">
+                </div>
+                    <button class="button left" onclick="console.log('left'); changeImage(-1)">&#10094;</button>
+                    <button class="button right" onclick="changeImage(1)">&#10095;</button>
+                </div>
         </section>
         <p>main goes here</p>
 
